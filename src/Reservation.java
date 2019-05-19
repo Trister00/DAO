@@ -3,15 +3,15 @@ import com.mongodb.DBObject;
 import java.util.Date;
 
 public class Reservation {
-    DBObject user;
-    DBObject hebergement;
-    DBObject resetauration;
-    Date date_debut;
-    Date date_fin;
+    User user;
+    Hebergement hebergement;
+    Restauration resetauration;
+    String date_debut;
+    String date_fin;
     long montant;
     int resolu;
 
-    public Reservation(DBObject user, DBObject hebergement, DBObject resetauration, Date date_debut, Date date_fin, long montant, int resolu) {
+    public Reservation(User user, Hebergement hebergement, Restauration resetauration, String date_debut, String date_fin, long montant, int resolu) {
         this.user = user;
         this.hebergement = hebergement;
         this.resetauration = resetauration;
@@ -21,43 +21,43 @@ public class Reservation {
         this.resolu = resolu;
     }
 
-    public DBObject getUser() {
+    public User getUser() {
         return user;
     }
 
-    public void setUser(DBObject user) {
+    public void setUser(User user) {
         this.user = user;
     }
 
-    public DBObject getHebergement() {
+    public Hebergement getHebergement() {
         return hebergement;
     }
 
-    public void setHebergement(DBObject hebergement) {
+    public void setHebergement(Hebergement hebergement) {
         this.hebergement = hebergement;
     }
 
-    public DBObject getResetauration() {
+    public Restauration getResetauration() {
         return resetauration;
     }
 
-    public void setResetauration(DBObject resetauration) {
+    public void setResetauration(Restauration resetauration) {
         this.resetauration = resetauration;
     }
 
-    public Date getDate_debut() {
+    public String getDate_debut() {
         return date_debut;
     }
 
-    public void setDate_debut(Date date_debut) {
+    public void setDate_debut(String date_debut) {
         this.date_debut = date_debut;
     }
 
-    public Date getDate_fin() {
+    public String getDate_fin() {
         return date_fin;
     }
 
-    public void setDate_fin(Date date_fin) {
+    public void setDate_fin(String date_fin) {
         this.date_fin = date_fin;
     }
 

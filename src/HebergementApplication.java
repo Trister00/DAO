@@ -1,3 +1,5 @@
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Optional;
 
 public class HebergementApplication {
@@ -15,10 +17,10 @@ public class HebergementApplication {
        // HebeDao.save(new Hebergement(3,"appart","sudsud",4));
 
         System.out.println(HebeDao.getAll());
-        Hebergement h = new Hebergement(1,"appartement","Nord",4);
+        Hebergement h = new Hebergement(1,"appart","nord",4,200,new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime()),new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime()));
         HebeDao.save(h);
 
-        Hebergement h2 = new Hebergement(2,"bungalows","Nord",2);
+        Hebergement h2 = new Hebergement(2,"bungalows","nord",2,400,new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime()),new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime()));
         HebeDao.save(h2);
     }
 
@@ -26,7 +28,7 @@ public class HebergementApplication {
         Optional<Hebergement> h = HebeDao.get(id);
 
         return h.orElseGet(
-                () -> new Hebergement(0 ,"not found","not found",0));
+                () -> new Hebergement(0 ,"not found","not found",0,0,null,null));
     }
 
 

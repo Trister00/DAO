@@ -1,5 +1,6 @@
 import com.mongodb.*;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class HebergementDao implements DAO<Hebergement> {
@@ -12,8 +13,9 @@ public class HebergementDao implements DAO<Hebergement> {
     private List<Hebergement> h = new ArrayList<>();
 
     public HebergementDao(){
-        h.add(new Hebergement(1,"appart","nord",4));
-        h.add(new Hebergement(2,"bungalows","sud",6));
+        h.add(new Hebergement(1,"appart","nord",4,200,new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime()),new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime())));
+        h.add(new Hebergement(2,"bungalows","nord",2,400,new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime()),new SimpleDateFormat("MM/dd/yyyy").format(Calendar.getInstance().getTime())));
+
     }
     public Optional<Hebergement> get(long id){
         return Optional.ofNullable(h.get((int) id));
@@ -38,7 +40,16 @@ public class HebergementDao implements DAO<Hebergement> {
         DBObject hebergement = new BasicDBObject("id",h.getId())
                 .append("type",h.getType())
                 .append("localisation",h.getLocalisation())
-                .append("nb_max",h.getNb_max_personnes());
+                .append("nb_max",h.getNb_max_personnes())
+                .append("prix",h.getPrix_nuit())
+                .append("reserve",Arrays.asList(
+                        new BasicDBObject("date_debut",h.getDate_debut())
+                                .append("date_fin",h.getDate_fin())
+                                , new BasicDBObject("date_debut",h.getDate_debut())
+                                .append("date_fin",h.getDate_fin()))
+                )
+                       ;
+                                       ;
         DB database = this.mongoClient.getDB("Projet");
         DBCollection collection = database.getCollection("Hebergement");
         collection.insert(hebergement);
