@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2813686a-a4d8-4c7f-b038-2e0f776e14eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReservationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOMongo/Hebergement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOMongo/Hebergement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOMongo/HebergementApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOMongo/HebergementApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOMongo/HebergementDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOMongo/HebergementDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOMongo/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOMongo/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOMongo/ReservationDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOMongo/ReservationDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOMongo/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOMongo/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hebergement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hebergement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HebergementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HebergementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HebergementDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HebergementDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReservationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReservationDao.java" afterDir="false" />
-    </list>
+    <list default="true" id="2813686a-a4d8-4c7f-b038-2e0f776e14eb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,8 +176,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReservationApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -282,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558283318259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558289434384" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/mongo-java-driver-3.9.1.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -364,14 +350,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33031675" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33031675" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918552" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32918552" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -591,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReservationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="14" column="92" lean-forward="true" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
