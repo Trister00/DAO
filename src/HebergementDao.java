@@ -5,7 +5,7 @@ import java.util.*;
 public class HebergementDao implements DAO<Hebergement> {
 
 
-    MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb+srv://Nassim:dexter-777@mycluster-dt5it.mongodb.net/test?retryWrites=true"));
+    MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb+srv://Nassim:swing-123@mycluster-dt5it.mongodb.net/test?retryWrites=true"));
 
 
 

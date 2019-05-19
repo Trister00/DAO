@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class UserDao implements DAO<User> {
-    MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb+srv://Nassim:dexter-777@mycluster-dt5it.mongodb.net/test?retryWrites=true"));
+    MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb+srv://Nassim:swing-123@mycluster-dt5it.mongodb.net/test?retryWrites=true"));
 
     List<User> u = new ArrayList<>();
 
